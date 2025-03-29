@@ -999,8 +999,8 @@ http://stream01.vnet.am/AnimalPlanet/index.m3u8
 #EXTINF:-1 tvg-id="big-planet" group-title="Познавательные", Big Planet
 http://109.200.130.123:7537/play/a02j
 
-#EXTINF:-1 group-title="Познавательные", 365 ДНЕЙ
-http://fs2.persik.by/365dney/index.m3u8
+#EXTINF:-1 catchup="append" catchup-days="7" catchup-source="&offset=${offset}" group-title="Познавательные", 365 ДНЕЙ
+http://api.peers.tv/timeshift/365_days/16/playlist.m3u8?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJhdWQiOiJhY2Nlc3MiLCJleHAiOjE3NDMzMjQzODAsImlhdCI6MTc0MzIzNzk4MCwiY2lkIjo2LCJ1aWQiOjkwNTIwMzEzNywicmVnIjpmYWxzZSwiaXAiOjE1NTE3MDQzNTYsImFkdWx0IjpmYWxzZX0.qcl84F8F2YmCAFPNgZEJlMnbLNNtA-3KBfhCd4pJjtc&offset=3
 
 #EXTINF:-1 tvg-id="kto-est-kto" group-title="Познавательные",Кто есть кто
 http://178.212.71.253:8000/play/132/index.m3u8
