@@ -1,5 +1,6 @@
 #EXTM3U url-tvg="https://iptvx.one/epg/epg_lite.xml.gz"
 
-#EXTINF:-1 "tvg-id="Всё ТВ" tvg-logo="https://images.iptv.rt.ru/images/ch4dk93mhk079s3jpo50.png" catchup="append" catchup-days="1" catchup-source="?offset=-${offset}&utcstart=${timestamp}" group-title="Кино и сериалы",Всё ТВ Трейлеры
+#EXTINF:-1 "tvg-id="Всё ТВ" tvg-logo="https://images.iptv.rt.ru/images/ch4dk93mhk079s3jpo50.png" catchup="append" catchup-days="1" catchup-source="?offset=-${offset}&utcstart=${timestamp}" group-title="Нажмите сюда для получения обновления",Для получения обновления напишите на WhatsApp 89383058588
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/112.0.0.0 Safari/537.36 OPR/98.0.0.0
+
 http://zabava-htlive.cdn.ngenix.net/hls/CH_VSETVHD/variant.m3u8
